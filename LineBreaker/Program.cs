@@ -14,7 +14,7 @@ namespace LineBreaker
                 do
                 {
                     i++;
-                    string line = "," + sr.ReadLine();
+                    string line = ", " + sr.ReadLine();
                     if (line != "")
                     {
                         text = text + line + Environment.NewLine;
